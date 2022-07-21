@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MidwestDevOpsWebsite", "MidwestDevOpsWebsite\MidwestDevOpsWebsite.csproj", "{C7C12914-578E-4187-83B7-823D8C3400D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{D4589C9E-2B61-44EE-96AC-334359B0BCB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataEntities", "DataEntities\DataEntities.csproj", "{C31244D7-EAF0-468C-AF13-715AD07C50AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseLogicLayer", "DatabaseLogicLayer\DatabaseLogicLayer.csproj", "{ECF88C28-4CA6-4053-B5C4-3C0B994EAAE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTService", "RESTService\RESTService.csproj", "{35DB0BD4-396D-4471-94E6-D2BD40085B58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTDLL", "RESTDLL\RESTDLL.csproj", "{2E94F6ED-6C33-45B5-ABC4-6C0004FC3A4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTBLL", "RESTBLL\RESTBLL.csproj", "{87DBDB42-FF4A-4C6D-9E16-D1CBA752E3C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDO.ThirdParty.Spotify.Standard", "ThirdParty.Spotify\MDO.ThirdParty.Spotify.Standard.csproj", "{A391EBA8-FB56-4F85-B47A-960D1C537808}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7C12914-578E-4187-83B7-823D8C3400D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C12914-578E-4187-83B7-823D8C3400D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C12914-578E-4187-83B7-823D8C3400D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C12914-578E-4187-83B7-823D8C3400D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4589C9E-2B61-44EE-96AC-334359B0BCB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4589C9E-2B61-44EE-96AC-334359B0BCB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4589C9E-2B61-44EE-96AC-334359B0BCB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4589C9E-2B61-44EE-96AC-334359B0BCB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31244D7-EAF0-468C-AF13-715AD07C50AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31244D7-EAF0-468C-AF13-715AD07C50AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31244D7-EAF0-468C-AF13-715AD07C50AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31244D7-EAF0-468C-AF13-715AD07C50AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF88C28-4CA6-4053-B5C4-3C0B994EAAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF88C28-4CA6-4053-B5C4-3C0B994EAAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF88C28-4CA6-4053-B5C4-3C0B994EAAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF88C28-4CA6-4053-B5C4-3C0B994EAAE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DB0BD4-396D-4471-94E6-D2BD40085B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DB0BD4-396D-4471-94E6-D2BD40085B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DB0BD4-396D-4471-94E6-D2BD40085B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DB0BD4-396D-4471-94E6-D2BD40085B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E94F6ED-6C33-45B5-ABC4-6C0004FC3A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E94F6ED-6C33-45B5-ABC4-6C0004FC3A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E94F6ED-6C33-45B5-ABC4-6C0004FC3A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E94F6ED-6C33-45B5-ABC4-6C0004FC3A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87DBDB42-FF4A-4C6D-9E16-D1CBA752E3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DBDB42-FF4A-4C6D-9E16-D1CBA752E3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DBDB42-FF4A-4C6D-9E16-D1CBA752E3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DBDB42-FF4A-4C6D-9E16-D1CBA752E3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A391EBA8-FB56-4F85-B47A-960D1C537808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A391EBA8-FB56-4F85-B47A-960D1C537808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A391EBA8-FB56-4F85-B47A-960D1C537808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A391EBA8-FB56-4F85-B47A-960D1C537808}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {389E2E5F-DD19-4C6A-8816-22811FE2DD0B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/midwestdevops
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MidwestDevOpsWebsite\\MidwestDevOpsWebsite.csproj
+		SccProjectName1 = MidwestDevOpsWebsite
+		SccLocalPath1 = MidwestDevOpsWebsite
+		SccProjectUniqueName2 = BusinessLogicLayer\\BusinessLogicLayer.csproj
+		SccProjectName2 = BusinessLogicLayer
+		SccLocalPath2 = BusinessLogicLayer
+		SccProjectUniqueName3 = DataEntities\\DataEntities.csproj
+		SccProjectName3 = DataEntities
+		SccLocalPath3 = DataEntities
+		SccProjectUniqueName4 = DatabaseLogicLayer\\DatabaseLogicLayer.csproj
+		SccProjectName4 = DatabaseLogicLayer
+		SccLocalPath4 = DatabaseLogicLayer
+		SccProjectUniqueName5 = RESTService\\RESTService.csproj
+		SccProjectName5 = RESTService
+		SccLocalPath5 = RESTService
+		SccProjectUniqueName6 = RESTDLL\\RESTDLL.csproj
+		SccProjectName6 = RESTDLL
+		SccLocalPath6 = RESTDLL
+		SccProjectUniqueName7 = RESTBLL\\RESTBLL.csproj
+		SccProjectName7 = RESTBLL
+		SccLocalPath7 = RESTBLL
+		SccProjectUniqueName8 = ThirdParty.Spotify\\MDO.ThirdParty.Spotify.Standard.csproj
+		SccProjectName8 = ThirdParty.Spotify
+		SccLocalPath8 = ThirdParty.Spotify
+	EndGlobalSection
+EndGlobal
